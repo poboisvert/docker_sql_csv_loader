@@ -1,0 +1,15 @@
+id,full_name,email,last_contacted,last_contacted_medium,unsubscribed_from_emails
+1,Merab Augustinas,1@example.com,2021-06-14 10:00:05.000000,email,0
+2,Benedikt Spiridon,2@example.com,2020-06-14 10:00:05.000000,email,0
+3,Ellen Gaiane,3@example.com,2021-07-14 10:00:05.000000,phone,0
+4,Jaycob Tighearnach,4@example.com,2021-07-14 10:00:05.000000,email,0
+5,Denis Feofilakt,5@example.com,2020-08-14 10:00:05.000000,email,0
+6,Disha Eamon,6@example.com,2021-03-14 10:00:05.000000,phone,0
+7,Lodovico Cumhur,,2021-03-14 10:00:05.000000,email,0
+8,Eckbert Lennart,,2021-03-17 10:00:05.000000,phone,0
+9,Ashtoret Lau,,2021-04-14 10:00:05.000000,phone,0
+10,Quanah Carl,,2021-05-22 10:00:05.000000,email,0
+11,Annabelle Tordis,33@example.com,2021-05-04 10:00:05.000000,email,1
+12,Salamon Aloisia,31@example.com,2021-05-14 10:00:05.000000,phone,1
+13,Milan Giusy,test@example.com,2021-05-14 10:00:05.000000,phone,1
+15,Nadiya Hadad,,2021-05-09 10:00:05.000000,phone,1
