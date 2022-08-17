@@ -21,7 +21,8 @@
 
 -- What was the first restaurent visited by each customer?
 
-`WITH order_booking AS
+```
+WITH order_booking AS
 (
 SELECT
 customer_id,
@@ -38,12 +39,14 @@ SELECT
 customer_id, restaurant_name
 FROM order_booking
 WHERE rank = 1
-GROUP BY customer_id, restaurant_name;`
+GROUP BY customer_id, restaurant_name;
+```
 
 -- What was the first restaurant visited by each customer?
 
 
-`WITH order_booking AS
+```
+WITH order_booking AS
 (
 SELECT
 customer_id,
@@ -60,6 +63,7 @@ SELECT
 customer_id, restaurant_name
 FROM order_booking
 WHERE rank = 1
-GROUP BY customer_id, restaurant_name;`
+GROUP BY customer_id, restaurant_name;
+```
 
 ![preview](preview.png)
