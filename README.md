@@ -1,11 +1,17 @@
 `SELECT * FROM customers`
+
 `SELECT * FROM bookings`
+
 `SELECT * FROM restaurants`
 
-`--How many days has each customer visited the restaurant? SELECT customer_id, COUNT(DISTINCT(bookings_date)) AS visit_count FROM bookings GROUP BY customer_id;`
+--How many days has each customer visited the restaurant? 
+
+`SELECT customer_id, COUNT(DISTINCT(bookings_date)) AS visit_count FROM bookings GROUP BY customer_id;`
+
+
+-- What was the first restaurent visited by each customer?
 
 ``
--- What was the first restaurent visited by each customer?
 WITH order_booking AS
 (
 SELECT
@@ -26,8 +32,10 @@ WHERE rank = 1
 GROUP BY customer_id, restaurant_name;
 ``
 
-``
+
 -- What was the first restaurant visited by each customer?
+
+``
 WITH order_booking AS
 (
 SELECT
