@@ -4,6 +4,13 @@
 - I need to confirm my SQL tables will work with the primary and foreign keys
 - I want to load csv into SQL and see if my tables work
 
+### Installation
+
+- CSV files are located: /data
+
+- SQL ORM: /sql
+
+- Install Docker && run "docker-compose up" in the root folder 
 
 
 ### SQL Queries
